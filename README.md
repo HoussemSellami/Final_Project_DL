@@ -23,7 +23,6 @@ Please make sure that the path of the dataset is as following: (your main folder
 *Packages: 
 This projects uses many packages that need to be downloaded. 
 I will share the version of some of my installed packages: 
-
 troch                     1.7.1
 torch-geometric           1.6.3                    
 torch-scatter             2.0.5                  
