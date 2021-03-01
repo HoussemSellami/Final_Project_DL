@@ -3,7 +3,7 @@
 *Files:
 This project is composed of the following .py files: 
 
-- train.py: This is the main training file. You need to run it to train and evaluate all four models, that were discussed in the report. You can choose in the main function, which models you want to train. This will automatically generate a csv file for each model architecture (see data/CiteSeer/processed), which contains the hyper-parameters description and the training, validation and test accuracy for that model with a defined hyper-parameters. This will also reproduce all the confusion matrices for the 4 different architectures, which include figure 4 from the final report for the JK-Transformer model.
+- train.py: This is the main training file. You need to run it to train and evaluate all four models, that were discussed in the report. You can choose in the main function, which models you want to train. This will automatically generate a csv file for each model architecture (see data/CiteSeer/processed), which contains the hyper-parameters description and the training, validation and test accuracy for that model with the defined hyper-parameters. This will also reproduce all the confusion matrices for the 4 different architectures, which include figure 4 from the final report for the JK-Transformer model.
 
 - models.py: This file contains the four models, that will be used for training (GAT, GCN, JK-LSTM, and JK-Transformer)
 
