@@ -14,13 +14,13 @@ This project is composed of the following .py files:
 * attention.py: Running this file (after running the train.py) would reproduce figure 1, figure 5 and figure 6 from the final report. It is mainly used for analyzing the attention weights.
 
 
-#Dataset:
+# Dataset:
 The dataset will be automatically downloaded when running train.py. In case of any problem, please download the data from the following link: 
 https://drive.google.com/drive/folders/1kqC9E0bsTlKI4Ml8SxK4gR1UXpHq6qom?usp=sharing and place it into the main folder.
 Please make sure that the path of the dataset is as following: (your main folder with all .py files)/data/CiteSeer 
 
 
-#Packages: 
+# Packages: 
 This projects uses many packages that need to be downloaded. 
 I will share the version of some of my installed packages: 
 troch                     1.7.1
