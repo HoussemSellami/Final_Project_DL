@@ -154,7 +154,7 @@ class Trainer(object):
     def run_experiments(self, root_dir, experimenter):
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         dataset = 'CiteSeer'
-        path = os.path.join(os.path.dirname(os.path.realpath(__file__)), '..', 'data', dataset)
+        path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'data')
         dataset = Planetoid(path, dataset, "full")
         processed_dir = os.path.join(root_dir, 'processed')
 
