@@ -28,6 +28,6 @@ I will share the version of some of my installed packages:
 * torch-scatter             2.0.5                  
 * torch-sparse              0.6.8                    
 * torchvision               0.4.1         
-* networkx                  2.2                    
+* networkx                  2.5                   
 You need to have these versions or more recent ones, but not older.
 P.S: I tried to make this code platform-independent (works on Windows, Linux, ..). In case of any problem, please contact me on: houssem.sellami@hotmail.fr
