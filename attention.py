@@ -21,7 +21,7 @@ def plot_train(dataset, graph):
     types = nx.get_node_attributes(graph, 'y')
     pos = nx.layout.fruchterman_reingold_layout(graph)
     p = nx.draw_networkx_nodes(graph, pos, cmap=plt.get_cmap('coolwarm'),
-                               node_color=node_colors[graph.node], vmin=-0.1, vmax=0.2)
+                               node_color=node_colors[graph.nodes], vmin=-0.1, vmax=0.2)
     plt.colorbar(p)
     nx.draw_networkx_edges(graph, pos)
     nx.draw_networkx_labels(graph, pos, types)
@@ -62,7 +62,7 @@ def plot_attention(model, dataset, graph):
     pos = nx.layout.fruchterman_reingold_layout(subgraph)
     neighbors_all.sort()
     p = nx.draw_networkx_nodes(subgraph, pos, cmap=plt.get_cmap('coolwarm'),
-                               node_color=node_colors[subgraph.node], vmin=-0.1, vmax=0.2)
+                               node_color=node_colors[subgraph.nodes], vmin=-0.1, vmax=0.2)
     plt.colorbar(p)
     nx.draw_networkx_edges(subgraph, pos)
     nx.draw_networkx_labels(subgraph, pos, types)
